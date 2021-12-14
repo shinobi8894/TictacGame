@@ -1,0 +1,51 @@
+button {
+  width: 120px;
+  height: 30px;
+  font-family: Outfit;
+  border-color: green;
+  border-width: 1px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+button:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+input {
+  appearance: none;
+  margin: 7px 5px 5px 5px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+input:hover {
+  border: 1px solid lightgreen;
+}
+
+input:checked {
+  border: 8px solid green;
+}
+
+input:hover:checked {
+  border: 8px solid lightgreen;
+}
+
+.radioButton {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  font-size: 28px;
+  font-family: 'Noto Sans Symbols 2'
+
+}
+
+.userSetting {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}

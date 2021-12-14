@@ -1,0 +1,39 @@
+.gameContainer {
+  margin: 20px;
+  width: 350px;
+  border-color: green;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: 30px;
+  font-family: Outfit;
+}
+
+.mainContainer {
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.messageContainer {
+  margin: 20px;
+  font-size: 20px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+
+.titleContainer {
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px green;
+  background-color: lightgreen;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}

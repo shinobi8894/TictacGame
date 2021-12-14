@@ -1,0 +1,17 @@
+.gameSquare {
+  border-color: green;
+  border-width: 1px;
+  border-style: solid;
+  min-height: 50px;
+  min-width: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  font-size: 28px;
+  font-family: 'Noto Sans Symbols 2'
+}
+
+.gameSquare:hover {
+  background-color: lightgreen;
+  color: white;
+}
